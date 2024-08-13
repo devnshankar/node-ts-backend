@@ -7,7 +7,7 @@ function main () {
     app.use(express.urlencoded({ extended: true }));
 
     app.get('/api/test', (req, res) => {
-        res.send('Hello World!');
+        res.send('Hello World test');
     });
 
     connectDB();
